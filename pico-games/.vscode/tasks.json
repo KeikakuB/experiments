@@ -1,0 +1,62 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "play current game",
+            "type": "shell",
+            "command": "pico8 -run -windowed 1 -frameless 1 -show_fps 1 -pixel_perfect 1 -width 1920 -height 1080 \"${relativeFile}\"",
+            "group": { "kind": "build", "isDefault": true},
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "taskName": "play pew pew",
+            "type": "shell",
+            "command": "pico8 -run pewpew.p8",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "taskName": "play conway",
+            "type": "shell",
+            "command": "pico8 -run conway.p8",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "taskName": "play touchBall",
+            "type": "shell",
+            "command": "pico8 -run touchBall.p8",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "taskName": "play touchSquare",
+            "type": "shell",
+            "command": "pico8 -run touchSquare.p8",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

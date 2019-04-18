@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerMovement.cs">
+    <Files>
+      <File FileName="Assets\Scripts\PlayerMovement.cs" Line="38" Column="22" />
+      <File FileName="Assets\Scripts\FallingObjectSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GarbageCollectorZone.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerDeathZone.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Timer.cs" Line="14" Column="47" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

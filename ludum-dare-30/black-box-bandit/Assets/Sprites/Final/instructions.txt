@@ -1,0 +1,5 @@
+1) Avoid [red] security drones.
+2) Destroy [blue] security drones.
+3) Acquire the [yellow] pipe protection device.
+4) Reach the pipe to travel to the next Black Box.
+5) Move with the Arrow keys.

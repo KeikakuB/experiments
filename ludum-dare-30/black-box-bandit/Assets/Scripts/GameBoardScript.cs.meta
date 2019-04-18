@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 66c2d4f8c8f965e4f8e659dac423c2b2
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - blackBoxBanditTemplate: {fileID: 100000, guid: bea7466424198e1459a70eb27e2c183f,
+      type: 2}
+  - goldenKeyTemplate: {fileID: 100000, guid: e9002d36246579246b707b1160c29ac3, type: 2}
+  - droneTemplate: {fileID: 100000, guid: 4020ee5b6fe49044eb85b5b3afc38727, type: 2}
+  - floorTileTemplate: {fileID: 100000, guid: 3092a01c67a34124bb21f6035186b304, type: 2}
+  - wallTileTemplate: {fileID: 100000, guid: 04eaa10d59f1eaf4abccb2e0d3eec3cb, type: 2}
+  - exitTileTemplate: {fileID: 100000, guid: 67cdfc991212d7545927300b7d8006b8, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
