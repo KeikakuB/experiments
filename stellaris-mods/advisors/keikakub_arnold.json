@@ -1,0 +1,224 @@
+{
+    "advisor_name": "advisor_arnold",
+    "multi_file_prefix": "arnold",
+    "file_relative_path": "vo/keikakub_arnold/",
+    "file_extension": "wav",
+    "events": [
+        {
+            "name":"advisor_sample_voice_type",
+            "files":["Hi", "HastaLaVista", "GetToDaChoppa", "PutThatCookieDown", "IllBeBack1"]
+        },
+        {
+            "name":"advisor_notification_system_survey_complete",
+            "files":["ISeeEverything"]
+        },
+        {
+            "name":"advisor_notification_science_ship_destroyed",
+            "files":["TakeItBack", "StopIt"]
+        },
+        {
+            "name":"advisor_notification_science_ship_under_attack",
+            "files":["DoItNow1", "DoItNow2", "DoItNow3", "DoItNow4", "DoItNow5"]
+        },
+        {
+            "name":"advisor_notification_construction_complete",
+            "files":["Yes0", "Yes1", "Affirmative"]
+        },
+        {
+            "name":"advisor_notification_construction_ship_destroyed",
+            "files":["TakeItBack", "StopIt"]
+        },
+        {
+            "name":"advisor_notification_construction_ship_under_attack",
+            "files":["DoItNow1", "DoItNow2", "DoItNow3", "DoItNow4", "DoItNow5"]
+        },
+        {
+            "name":"advisor_notification_colony_established",
+            "files":["ItIsYourDestiny", "AsSatisfiyingAsCumming"]
+        },
+        {
+            "name":"advisor_notification_colony_ship_under_attack",
+            "files":["DoItNow1", "DoItNow2", "DoItNow3", "DoItNow4", "DoItNow5"]
+        },
+        {
+            "name":"advisor_notification_colony_ship_destroyed_01",
+            "files":["YouSonOfABitch"]
+        },
+        {
+            "name":"advisor_notification_spaceport_lost",
+            "files":["FuckYouAssWhole1", "FuckYouAssWhole2", "FuckYouAssWhole3"]
+        },
+        {
+            "name":"advisor_notification_enemy_invasion_defeated",
+            "files":["goodguys"]
+        },
+        {
+            "name":"advisor_notification_invasion_enemy_won",
+            "files":["IllBeBack1", "IllBeBack2"]
+        },
+        {
+            "name":"advisor_notification_invasion_failed",
+            "files":["WhatTheFuckDidIDoWrong"]
+        },
+        {
+            "name":"advisor_notification_invasion_success",
+            "files":["YouBelongToMeThereIsNoBathroom"]
+        },
+        {
+            "name":"advisor_notification_military_station_lost",
+            "files":["FuckYouAssWhole1", "FuckYouAssWhole2", "FuckYouAssWhole3"]
+        },
+        {
+            "name":"advisor_notification_mining_station_lost",
+            "files":["TakeItBack", "StopIt"]
+        },
+        {
+            "name":"advisor_notification_research_station_lost",
+            "files":["TakeItBack", "StopIt"]
+        },
+        {
+            "name":"advisor_notification_observation_post_lost",
+            "files":["TakeItBack", "StopIt"]
+        },
+        {
+            "name":"advisor_notification_outpost_station_lost",
+            "files":["FuckYouAssWhole1", "FuckYouAssWhole2", "FuckYouAssWhole3"]
+        },
+        {
+            "name":"advisor_notification_wormhole_station_lost",
+            "files":["FuckYouAssWhole1", "FuckYouAssWhole2", "FuckYouAssWhole3"]
+        },
+        {
+            "name":"advisor_notification_hostile_fleet_detected",
+            "files":["GetDown"]
+        },
+        {
+            "name":"advisor_notification_hostile_fleet_engaged",
+            "files":["PieceOfShitDIE"]
+        },
+        {
+            "name":"advisor_notification_fleet_destroyed",
+            "files":["YouSonOfABitch"]
+        },
+        {
+            "name":"advisor_notification_station_under_attack",
+            "files":["DoItNow1", "DoItNow2", "DoItNow3", "DoItNow4", "DoItNow5"]
+        },
+        {
+            "name":"advisor_notification_special_project_complete",
+            "files":["IAmBack"]
+        },
+        {
+            "name":"advisor_notification_situation_log",
+            "files":["ChillOutDickWad"]
+        },
+        {
+            "name":"advisor_notification_enemy_troops_landing",
+            "files":["GreenBarretForBreakfast"]
+        },
+        {
+            "name":"advisor_notification_incoming_transmission",
+            "files":["ItsShowTime"]
+        },
+        {
+            "name":"advisor_notification_research_complete",
+            "files":["NoProblemo"]
+        },
+        {
+            "name":"advisor_notification_discovery_detected",
+            "files":["Cool"]
+        },
+        {
+            "name":"advisor_notification_ships_upgraded",
+            "files":["WhosYourDaddy"]
+        },
+        {
+            "name":"advisor_notification_evade_hostile_fleet",
+            "files":["StopWhining"]
+        },
+        {
+            "name":"advisor_notification_alien_spaceport_engaged",
+            "files":["IAmThePartyPoopah"]
+        },
+        {
+            "name":"advisor_notification_building_ruined",
+            "files":["ToBeOrNotToBe", "HastaLaVista"]
+        },
+        {
+            "name":"advisor_notification_colonization_progress",
+            "files":["HastaLaVista"]
+        },
+        {
+            "name":"advisor_notification_debris_analysed",
+            "files":["IfItBleeds"]
+        },
+        {
+            "name":"advisor_notification_enemy_declared_war",
+            "files":["DeepTrouble", "YouThinkYouKnowBad"]
+        },
+        {
+            "name":"advisor_notification_federation_formed",
+            "files":["GrantMeRevengeTheHellWithYou"]
+        },
+        {
+            "name":"advisor_notification_frontier_outpost_lost",
+            "files":["TakeItBack", "StopIt"]
+        },
+        {
+            "name":"advisor_notification_hostile_station_engaged",
+            "files":["IAmThePartyPoopah"]
+        },
+        {
+            "name":"advisor_notification_player_declare_war",
+            "files":["YouAreGonaKillThatGuyIAmATerminator"]
+        },
+        {
+            "name":"advisor_notification_primitive_enlighted",
+            "files":["StickAround"]
+        },
+        {
+            "name":"advisor_notification_species_modified",
+            "files":["IAmACyberOrganism", "NotATumah"]
+        },
+        {
+            "name":"advisor_notification_tile_blocker_clear",
+            "files":["ToBeOrNotToBe", "HastaLaVista"]
+        },
+        {
+            "name":"advisor_notification_unidentified_object",
+            "files":["Cool"]
+        },
+        {
+            "name":"advisor_notification_alien_empire_communication_01",
+            "files":["IWantToAskYouABunchOfQuestions"]
+        },
+        {
+            "name":"advisor_notification_alien_federation_formed",
+            "files":["WTF"]
+        },
+        {
+            "name":"advisor_notification_alien_vessel_encountered",
+            "files":["Hi", "HowAreYou"]
+        },
+        {
+            "name":"advisor_notification_generic_war_declare",
+            "files":["Hahaha0", "Hahaha1", "Hahaha2", "Hahaha3"]
+        },
+        {
+            "name":"advisor_notification_pre_sapient_uplifted",
+            "files":["PutThatCookieDown"]
+        },
+        {
+            "name":"advisor_notification_spacebourne_encounter",
+            "files":["Hi", "HowAreYou"]
+        },
+        {
+            "name":"advisor_notification_spaceport_under_attack",
+            "files":["DoItNow1", "DoItNow2", "DoItNow3", "DoItNow4", "DoItNow5"]
+        },
+        {
+            "name":"advisor_notification_invasion_progress",
+            "files":["LamentationOfTheirWomen"]
+        }
+    ]
+}
