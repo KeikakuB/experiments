@@ -165,7 +165,7 @@ public class GameBoardScript : MonoBehaviour {
 	}
 
 	void UpdateText() {
-		guiText.text = "\"Bandit, you're in Black Box #" + UnityEngine.Random.Range(0, 9999) + " with a Difficulty Level of " + numberOfDrones + ", be careful out there.\"" ;
+		GetComponent<GUIText>().text = "\"Bandit, you're in Black Box #" + UnityEngine.Random.Range(0, 9999) + " with a Difficulty Level of " + numberOfDrones + ", be careful out there.\"" ;
 	}
 
 	/// <summary>
@@ -330,7 +330,7 @@ public class GameBoardScript : MonoBehaviour {
 	void OnBlackBoxRaidSuccess() {
 		sourceThemeTubeRiding.Play();
 		ignorePlayerInput = true;
-		guiText.text = "\"Congratulations Bandit, you're now travelling to the next Black Box...\"";
+		GetComponent<GUIText>().text = "\"Congratulations Bandit, you're now travelling to the next Black Box...\"";
 		float waitTime = 0.25f;
 		boardHider = (GameObject) Instantiate( boardHiderTemplate );
 		MovePieceVisually( boardHider, new IntVector2( numberOfRows / 2, numberOfColumns / 2 ));
@@ -363,7 +363,7 @@ public class GameBoardScript : MonoBehaviour {
 	void OnBlackBoxRaidFailure() {
 		sourcePlayerLose.Play();
 		ignorePlayerInput = true;
-		guiText.text = "\"You've been demuffinated, Bandit, I'm sending you back to an easier Black Box.\"";
+		GetComponent<GUIText>().text = "\"You've been demuffinated, Bandit, I'm sending you back to an easier Black Box.\"";
 		Invoke( "EndBlackBoxRaidFailure" , 4f);
 	}
 
