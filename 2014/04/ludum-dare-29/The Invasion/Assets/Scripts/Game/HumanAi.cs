@@ -24,7 +24,7 @@ public class HumanAi : MonoBehaviour {
 		if(target != null) {
 			Vector2 diff = target.transform.position - transform.position;
 			float dir = diff.x > 0 ? -1 : 1;
-			rigidbody2D.velocity = new Vector2(dir * actualRunForce, rigidbody2D.velocity.y);
+			GetComponent<Rigidbody2D>().velocity = new Vector2(dir * actualRunForce, GetComponent<Rigidbody2D>().velocity.y);
 		}
 	}
 }

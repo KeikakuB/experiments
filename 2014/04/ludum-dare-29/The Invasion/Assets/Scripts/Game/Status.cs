@@ -19,7 +19,7 @@ public class Status : MonoBehaviour {
 	void Start () {
 		sources = GetComponents<AudioSource>();
 		score = GameObject.FindObjectOfType<Score>();
-		guiText.text = "Guide the invasion pod to the surface!";
+		GetComponent<GUIText>().text = "Guide the invasion pod to the surface!";
 	}
 	
 	// Update is called once per frame
@@ -37,9 +37,9 @@ public class Status : MonoBehaviour {
 
 	void UpdateText(float timeLeft) {
 		if(timeLeft > 0 ) {
-			guiText.text = statusText + timeLeft.ToString("F");
+			GetComponent<GUIText>().text = statusText + timeLeft.ToString("F");
 		} else {
-			guiText.text = statusText + "0.00";
+			GetComponent<GUIText>().text = statusText + "0.00";
 		}
 	}
 

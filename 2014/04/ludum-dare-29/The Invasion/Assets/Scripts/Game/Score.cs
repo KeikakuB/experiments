@@ -46,7 +46,7 @@ public class Score : MonoBehaviour {
 	}
 
 	void UpdateText() {
-		guiText.text = "Rank: " + rankNames[GetRankIndex()] + "\n" +
+		GetComponent<GUIText>().text = "Rank: " + rankNames[GetRankIndex()] + "\n" +
 			 getNextRankText()+ "\n" +
 			"Successful Breaches: " + PlayerPrefs.GetInt(scoreSuccessfulBreaches) + "\n" +
 			"Failed Breaches: " + PlayerPrefs.GetInt(scoreFailedBreaches);

@@ -23,6 +23,6 @@ public class InvaderControls : MonoBehaviour {
 	void FixedUpdate() {
 		float h = Input.GetAxis("Horizontal");
 
-		rigidbody2D.AddForce(new Vector2(h * horizontalForce, 0));
+		GetComponent<Rigidbody2D>().AddForce(new Vector2(h * horizontalForce, 0));
 	}
 }

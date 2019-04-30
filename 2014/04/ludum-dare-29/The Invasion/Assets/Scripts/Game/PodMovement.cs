@@ -45,7 +45,7 @@ public class PodMovement : MonoBehaviour {
 
 	void FixedUpdate() {
 		if( !hasHitEarthsSurface && !isDisabled) {
-			rigidbody2D.velocity = transform.up * speed;
+			GetComponent<Rigidbody2D>().velocity = transform.up * speed;
 
 			if(wantsToTurnLeft && !wantsToTurnRight) {
 				transform.RotateAround(transform.position, new Vector3(0, 0, 1), turnRate);
@@ -69,9 +69,9 @@ public class PodMovement : MonoBehaviour {
 		Vector3 newUp = transform.up;
 		newUp.x = 0.0f;
 		transform.up = newUp;
-		rigidbody2D.velocity = new Vector2();
-		rigidbody2D.gravityScale = 1.0f;
-		rigidbody2D.AddForce(new Vector2(0f, 200f));
+		GetComponent<Rigidbody2D>().velocity = new Vector2();
+		GetComponent<Rigidbody2D>().gravityScale = 1.0f;
+		GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 200f));
 		Invoke("EjectInvader", 1.0f);
 	}
 
@@ -79,7 +79,7 @@ public class PodMovement : MonoBehaviour {
 		sources[3].Play();
 		sources[0].Stop();
 		isDisabled = true;
-		rigidbody2D.velocity = new Vector2();
+		GetComponent<Rigidbody2D>().velocity = new Vector2();
 	}
 
 	void EjectInvader() {

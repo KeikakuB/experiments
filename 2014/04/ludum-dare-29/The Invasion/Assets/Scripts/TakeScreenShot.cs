@@ -19,7 +19,7 @@ public class TakeScreenShot : MonoBehaviour {
 				
 			} while (System.IO.File.Exists(screenshotFilename));
 			
-			Application.CaptureScreenshot(screenshotFilename);
+			ScreenCapture.CaptureScreenshot(screenshotFilename);
 		}
 	}
 }

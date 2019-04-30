@@ -14,7 +14,7 @@ public class LoadingText : MonoBehaviour {
 	void Start () {
 		Invoke("GoToGame", pulseTime * numberOfPulses);
 		lastPulse = Time.time;
-		guiText.text = text + new string ('*', dots + 1);
+		GetComponent<GUIText>().text = text + new string ('*', dots + 1);
 	}
 	
 	// Update is called once per frame
@@ -28,7 +28,7 @@ public class LoadingText : MonoBehaviour {
 	void ChangeDots() {
 		dots += 1;
 		dots %= 3;
-		guiText.text = text + new string ('*', dots + 1);
+		GetComponent<GUIText>().text = text + new string ('*', dots + 1);
 	}
 
 	void GoToGame() {
