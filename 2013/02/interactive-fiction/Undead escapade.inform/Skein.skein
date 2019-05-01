@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x031C1690" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x031C1690"/>
+  <item nodeId="node-0x031C1690">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">I, Calypso, am the one and only, world-renowned, pop rock star and legendary destroyer of demons, vaporizer of vampires and underminer of the undead. Tales of my gazillions of conquests are told near warm campfires across time and space within all galaxies that ever were and ever will be.&#x000A;&#x000A;A destroyer of evil by day and a destroyer of evil by night.  Wherever the forces of evil gather, I, Calypso, shall be called to annihilate them with the power of over nine-thousand supernovas. Day in and day out, I, Calypso, risk my life, fighting against the forces of darkness, not for the glory or the sexual gratification it provides me... But in order to protect the innocent from a darkness that would otherwise engulf them.&#x000A;&#x000A;Tonight is a night like every other night.&#x000A;&#x000A;There have been reports of the undead rising up in droves in Los Demonios. The name of Valhallery the Malevolent is whispered in dark circles, it is said that she is responsible for the recent risings. I, Calypso, shall defeat the evil necromancerette once and for all. The woman I once called... mother, shall die by my hand tonight.&#x000A;&#x000A;I, Calypso, have arrived at the cemetery on the outskirts of town where Valhallery is residing. My highly outrageous and, some say, very unlikely story begins like so,&#x000A;&#x000A;Calypso's Highly Unlikely Descent&#x000A;An Overly Serious Tale Inspired by a True Story by Bill Tyros&#x000A;Release 1 / Serial number 130214 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Graveyard&#x000A;A statue of Death himself lies in the middle of the graveyard, menacingly towering over an endless sea of great grey and brown tombstones. Beneath a dark and foreboding sky, a thick fog engulfs everything as far as the eye can see.&#x000A;&#x000A;A small forest path leads to the east. Towards the west, a large tomb lays at the head of a well-trodden path. To the south, a carefully hidden mausoleum can be seen. An archway with stairs leading down underground seems to call out to you from within the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Home sweet home, the cemetery doesn't look as I remember it. Now that the Holy Men residing here are gone, I'm the only one who can stop the undead from causing widespread chaos across the entire province.&#x000A;&#x000A;"Ahh, the Old Cemetery of Saint Augustus. How you've changed, old friend, since I've been gone."&#x000A;&#x000A;The Holy Man&#x000A;An Interactive Fiction by Bill Tyros&#x000A;Release 1 / Serial number 130207 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Cemetery&#x000A;A statue of Death himself, with hood and scythe, towers over you. You find yourself surrounded by a great number of grey tombstones and below a dark and cloudy sky. A thick fog engulfs you.&#x000A;&#x000A;To the east, you can barely make out a small shrine. To the north, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. To the west, you the path towards the hospital covered in fog.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x03204500"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03204500">
+    <command xml:space="preserve">open abc</command>
+    <result xml:space="preserve">Nothing has been unlocked and opened!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03206490"/>
+      <child nodeId="node-0x032073C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03206490">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03204570"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03204570">
+    <command xml:space="preserve">statu</command>
+    <result xml:space="preserve">&gt;STATUE&#x000A;As you look closer, you notice a small box hidden beneath dense shrubberry next to the statue.&#x000A;&#x000A;A statue of Death hooded, pointing his massive scythe straight to the ground. Below it, lies an engraved poem.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03207EB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03207EB8">
+    <command xml:space="preserve">take lantern</command>
+    <result xml:space="preserve">Taken.&#x000A;An electric lantern of moderate size. &#x000A;&#x000A;The lantern is currently switched off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03207F28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03207F28">
+    <command xml:space="preserve">toggle lantern</command>
+    <result xml:space="preserve">The lantern can't be switched on, its battery isn't charged.&#x000A;&#x000A;I've always asked myself, why do the undead always have to gather in cemeteries? It's dark, foggy.... It literally smells like death. I don't understand their way of thinking at all. But, you know, maybe that's because I'm not a corpse, yet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02894678"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02894678">
+    <command xml:space="preserve">charge lantern</command>
+    <result xml:space="preserve">The lantern is now charged.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x028946E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028946E8">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Graveyard&#x000A;Previous turn undone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02894758"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02894758">
+    <command xml:space="preserve">charge lantern</command>
+    <result xml:space="preserve">The lantern is now charged.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D7C78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D7C78">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Graveyard&#x000A;Previous turn undone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D7D80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D7D80">
+    <command xml:space="preserve">toggle lantern</command>
+    <result xml:space="preserve">The lantern can't be switched on, its battery isn't charged.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D8388"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D8388">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;Ok, ok, ok. It's not that bad really. I'll find a way into the crypt, get the job done and leave as soon as possible. God knows, I'm a busy man. I don't have time to deal with every single wannabe necromancer who decides to occupy the local cemetery and wreck havoc like the pre-pubescent teen that he is.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D8860"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D8860">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">The lantern can't be switched on, its battery isn't charged.&#x000A;&#x000A;I'm definitely not going in there with this lantern turned off. Now, that would be stupid.&#x000A;&#x000A;Man. Maybe, I'm just too jaded. I'm done this so many, many, many, many, many, many, times that nothing surprises me anymore. I've spent every single day of my life fighting the undead across the world and, I don't know, I feel as if something is missing. Maybe after I cut this losermancer's head off, who probably can't even summon a golem yet, I'll book an appointment with a psychologist.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03207190"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03207190">
+    <command xml:space="preserve">toggle lantern</command>
+    <result xml:space="preserve">The lantern can't be switched on, its battery isn't charged.&#x000A;&#x000A;Lilith... God, I loved you Lilith. Why did she have to leave me? I was really happy with her, you know? Granted, I didn't really spend that much time with her... I can't believe she thinks that I'd rather spend my time killing ghouls, solving devious puzzles and burying the dead undead than spend time with her. God... She was an angel, literally and figuratively. Well, I guess if she was a literal angel then she would be a figurative angel by default, right? Anyway, the point is that if you've never been with a girl with wings you're missing out.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03207200"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03207200">
+    <command xml:space="preserve">charge lantern</command>
+    <result xml:space="preserve">The lantern is now charged.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03207270"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03207270">
+    <command xml:space="preserve">toggle lantern</command>
+    <result xml:space="preserve">You switch the lantern on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x032072E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x032072E0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a lantern (providing light)&#x000A;  a top hat (being worn)&#x000A;  a gothic trenchcoat (being worn)&#x000A;  a pair of tight jeans (being worn)&#x000A;  a pair of knee high boots (being worn)&#x000A;  a long tube (being worn and open)&#x000A;    a dull katana&#x000A;  a messenger bag (being worn and open)&#x000A;    a Monster Manual&#x000A;&#x000A;We had so many good memories. A while back, an archdemon was about to suck her into Hell, but I got there just in time and saved her from a life of eternal torment. At the time, she was going out with this angelic douchebag named Metatron. He was gone really fast, after Lilith and I partook in one or two Transformers movie marathons.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03207350"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03207350">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">The lantern is all ready on.&#x000A;&#x000A;Good, this lantern should give off enough light to let me enter the crypt.&#x000A;&#x000A;Entrance&#x000A;TODO:.&#x000A;&#x000A;You enter the dark crypt guided by the lantern in your hands. "Finally, my God let's get this over with before I die of boredom."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x032073C0">
+    <command xml:space="preserve">statue</command>
+    <result xml:space="preserve">As you look closer, you notice a small box hidden beneath dense shrubberry next to the statue.&#x000A;&#x000A;A statue of Death hooded, pointing his massive scythe straight to the ground. Below it, lies an engraved poem.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03207430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03207430">
+    <command xml:space="preserve">take lantern</command>
+    <result xml:space="preserve">An electric lantern of moderate size. A lever is attached beneath the lantern's base. &#x000A;&#x000A;The lantern is currently switched off.&#x000A;&#x000A;Taken.&#x000A;&#x000A;I've always asked myself, why do the undead always have to gather in cemeteries? It's dark, foggy.... It literally smells like death. I don't understand their way of thinking at all. But, you know, maybe that's because I'm not a corpse, yet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x032074A0"/>
+      <child nodeId="node-0x031DE188"/>
+    </children>
+  </item>
+  <item nodeId="node-0x032074A0">
+    <command xml:space="preserve">toggle lantern</command>
+    <result xml:space="preserve">You switch the lantern on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03207510"/>
+      <child nodeId="node-0x031D95F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03207510">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03207580"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03207580">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;The lantern's light begins to go out in short flashes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x032075F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x032075F0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03207660"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03207660">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;The lantern loses power and switches off!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x032076D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x032076D0">
+    <command xml:space="preserve">charge lantern</command>
+    <result xml:space="preserve">You turn the lever beneath the lantern clockwise about forty-six times.&#x000A;The lantern is now charged.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03207740"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03207740">
+    <command xml:space="preserve">lantern</command>
+    <result xml:space="preserve">An electric lantern of moderate size. A lever is attached beneath the lantern's base. &#x000A;&#x000A;The lantern is currently switched off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x032077B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x032077B0">
+    <command xml:space="preserve">lever</command>
+    <result xml:space="preserve">A small lever meant to be twisted clockwise, probably used for charging the lantern.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03207820"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03207820">
+    <command xml:space="preserve">charge lantern</command>
+    <result xml:space="preserve">The lantern is allready charged.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03207890"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03207890">
+    <command xml:space="preserve">charge lever</command>
+    <result xml:space="preserve">(first taking the lever)&#x000A;That seems to be a part of the lantern.&#x000A;&#x000A;Ok, ok, ok. It's not that bad really. I'll find a way into the crypt, get the job done and leave as soon as possible. God knows, I'm a busy man. I don't have time to deal with every single wannabe necromancer who decides to occupy the local cemetery and wreck havoc like the pre-pubescent teen that he is.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03207900"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03207900">
+    <command xml:space="preserve">turn lever</command>
+    <result xml:space="preserve">The lantern is allready charged.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D9518"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D9518">
+    <command xml:space="preserve">push lever</command>
+    <result xml:space="preserve">The lantern is allready charged.&#x000A;&#x000A;Man. Maybe, I'm just too jaded. I'm done this so many, many, many, many, many, many, times that nothing surprises me anymore. I've spent every single day of my life fighting the undead across the world and, I don't know, I feel as if something is missing. Maybe after I cut this losermancer's head off, who probably can't even summon a golem yet, I'll book an appointment with a psychologist.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D9588"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D9588">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">The lantern is allready charged.&#x000A;&#x000A;Lilith... God, I loved you Lilith. Why did she have to leave me? I was really happy with her, you know? Granted, I didn't really spend that much time with her... I can't believe she thinks that I'd rather spend my time killing ghouls, solving devious puzzles and burying the dead undead than spend time with her. God... She was an angel, literally and figuratively. Well, I guess if she was a literal angel then she would be a figurative angel by default, right? Anyway, the point is that if you've never been with a girl with wings you're missing out.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031D95F8">
+    <command xml:space="preserve">charge lantern</command>
+    <result xml:space="preserve">You turn the lever beneath the lantern clockwise about twenty-two times.&#x000A;The lantern is now charged.&#x000A;&#x000A;Lilith... God, I loved you Lilith. Why did she have to leave me? I was really happy with her, you know? Granted, I didn't really spend that much time with her... I can't believe she thinks that I'd rather spend my time killing ghouls, solving devious puzzles and burying the dead undead than spend time with her. God... She was an angel, literally and figuratively. Well, I guess if she was a literal angel then she would be a figurative angel by default, right? Anyway, the point is that if you've never been with a girl with wings you're missing out.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D9668"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D9668">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">The lantern is all ready on.&#x000A;&#x000A;Good, this lantern should give off enough light to let me enter the crypt.&#x000A;&#x000A;Entrance&#x000A;TODO:.&#x000A;&#x000A;You enter the dark crypt guided by the lantern in your hands. "Finally, my God let's get this over with before I die of boredom."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D96D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D96D8">
+    <command xml:space="preserve">drop lantern</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D9748"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D9748">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Entrance&#x000A;TODO:.&#x000A;&#x000A;You can see a lantern (providing light) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D97B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D97B8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D9828"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D9828">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D9898"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D9898">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;TODO:It's pretty dark in here. A.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D9908"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D9908">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;TODO:It's pretty dark in here. B.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D9978"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D9978">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D99E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D99E8">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;TODO:It's pretty dark in here. B.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D9A58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D9A58">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;TODO:It's pretty dark in here. B.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D9AC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D9AC8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D9B38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D9B38">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D9BA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D9BA8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D9C18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D9C18">
+    <command xml:space="preserve">take lantern</command>
+    <result xml:space="preserve">The last time you saw the lantern, it was at "the Entrance".&#x000A;&#x000A;TODO:It's pretty dark in here. B.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031D9C88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031D9C88">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DD778"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DD778">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DD7E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DD7E8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;TODO:It's pretty dark in here. A.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DD858"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DD858">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DD8C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DD8C8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;TODO:It's pretty dark in here. C.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DD938"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DD938">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;TODO:It's pretty dark in here. C.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DD9A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DD9A8">
+    <command xml:space="preserve">so</command>
+    <result xml:space="preserve">Most connecting and comparative words are not necessary.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DDA18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DDA18">
+    <command xml:space="preserve">so</command>
+    <result xml:space="preserve">Most connecting and comparative words are not necessary.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DDA88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DDA88">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Entrance&#x000A;TODO:.&#x000A;&#x000A;You can see a lantern (providing light) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DDAF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DDAF8">
+    <command xml:space="preserve">take lantern</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DDB68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DDB68">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Corridor&#x000A;TODO:CORRIDOR&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DDBD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DDBD8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;From here, you can go to the south, the east and the west.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DDC48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DDC48">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Storage Room&#x000A;TODO:STORAGE ROOM&#x000A;&#x000A;You can see a bucket (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DDCB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DDCB8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Corridor&#x000A;TODO:CORRIDOR&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DDD28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DDD28">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Prison&#x000A;TODO:PRISON&#x000A;&#x000A;You can see an iron gate and a rotten desk (on which are a scribbled note and a puzzle cube (in which is a silver key)) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DDD98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DDD98">
+    <command xml:space="preserve">go gate</command>
+    <result xml:space="preserve">(first opening the iron gate)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DDE08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DDE08">
+    <command xml:space="preserve">smash cube</command>
+    <result xml:space="preserve">Taken.&#x000A;A wooden puzzle cube, just the right size to grasp in the palm of your hand.&#x000A;&#x000A;Each side of the cube has a single button in the middle with a different dotted code on it, including: an unpressed one-dot button, an unpressed two-dot button, an unpressed three-dot button, an unpressed four-dot button, an unpressed five-dot button and an unpressed six-dot button.&#x000A;&#x000A;In the puzzle cube is a silver key.&#x000A;&#x000A;You smash the innocent cube on the floor with a surprising amount of force. After spinning on itself for a while, the cube falls with its unpressed four-dot button facing up. It cracks open wide and a silver key slides out of it and onto the ground.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DDE78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DDE78">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;A slender silver key with a handle shaped in the image of a headless woman's body with large breasts and no pubic hair. Perverted shizzle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DDEE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DDEE8">
+    <command xml:space="preserve">open gate with key</command>
+    <result xml:space="preserve">You unlock the iron gate.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DDF58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DDF58">
+    <command xml:space="preserve">go gate</command>
+    <result xml:space="preserve">(first opening the iron gate)&#x000A;&#x000A;Cell&#x000A;TODO:CELL&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DDFC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DDFC8">
+    <command xml:space="preserve">gate</command>
+    <result xml:space="preserve">That's neither a verb I recognise nor a keyword you can use right now.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DE038"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DE038">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;From here, the only way out is to the outside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DE0A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DE0A8">
+    <command xml:space="preserve">outside</command>
+    <result xml:space="preserve">Prison&#x000A;TODO:PRISON&#x000A;&#x000A;You can see a broken puzzle cube (empty), an iron gate and a rotten desk (on which is a scribbled note) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DE118"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DE118">
+    <command xml:space="preserve">inside</command>
+    <result xml:space="preserve">Cell&#x000A;TODO:CELL&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031DE188">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DE1F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DE1F8">
+    <command xml:space="preserve">toggle lanter</command>
+    <result xml:space="preserve">&gt;TOGGLE LANTERN&#x000A;You switch the lantern on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DE268"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DE268">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DE2D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DE2D8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;The lantern's light begins to go out in short flashes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DE348"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DE348">
+    <command xml:space="preserve">charge lantern</command>
+    <result xml:space="preserve">You turn the lever beneath the lantern clockwise about twenty-six times.&#x000A;The lantern is now charged.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DE3B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DE3B8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;I've always asked myself, why do the undead always have to gather in cemeteries? It's dark, foggy.... It literally smells like death. I don't understand their way of thinking at all. But, you know, maybe that's because I'm not a corpse, yet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DE428"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DE428">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;Ok, ok, ok. It's not that bad really. I'll find a way into the crypt, get the job done and leave as soon as possible. God knows, I'm a busy man. I don't have time to deal with every single wannabe necromancer who decides to occupy the local cemetery and wreck havoc like the pre-pubescent teen that he is.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DE498"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DE498">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DE508"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DE508">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DE578"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DE578">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DE5E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DE5E8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DE658"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DE658">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031DE6C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031DE6C8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031E3CA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031E3CA8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031E3D18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031E3D18">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;Man. Maybe, I'm just too jaded. I'm done this so many, many, many, many, many, many, times that nothing surprises me anymore. I've spent every single day of my life fighting the undead across the world and, I don't know, I feel as if something is missing. Maybe after I cut this losermancer's head off, who probably can't even summon a golem yet, I'll book an appointment with a psychologist.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031E3D88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031E3D88">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;Lilith... God, I loved you Lilith. Why did she have to leave me? I was really happy with her, you know? Granted, I didn't really spend that much time with her... I can't believe she thinks that I'd rather spend my time killing ghouls, solving devious puzzles and burying the dead undead than spend time with her. God... She was an angel, literally and figuratively. Well, I guess if she was a literal angel then she would be a figurative angel by default, right? Anyway, the point is that if you've never been with a girl with wings you're missing out.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031E3DF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031E3DF8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031E3E68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031E3E68">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031E3ED8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031E3ED8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;We had so many good memories. A while back, an archdemon was about to suck her into Hell, but I got there just in time and saved her from a life of eternal torment. At the time, she was going out with this angelic douchebag named Metatron. He was gone really fast, after Lilith and I partook in one or two Transformers movie marathons.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031E3F48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031E3F48">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031E3FB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031E3FB8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031E4028"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031E4028">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031E4098"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031E4098">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;Lilith was my first angel. Maybe I'll never be able to get over her? She hard to handle but she had something special about her. Maybe it was the gothic eye-liner she wore? I don't know, she had something and I'll never be able to get over her. I'm going to die alone, in a crypt without having slept with more than one angel. Come on, this is the fate I've been dished out by the Holy Trinity, after all these years of service?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031E4108"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031E4108">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031E4178"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031E4178">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031E41E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031E41E8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;All right. I think it's time for me to shut off my internal monologue for the moment while I try to GET INTO THE FUCKING CRYPT SO THAT WE CAN ALL GO HOME.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031E4258"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031E4258">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031E42C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031E42C8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031E4338"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031E4338">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Graveyard&#x000A;The statue of Death lies in the middle of the Graveyard surrounded by endless rows of tombstones.&#x000A;&#x000A;To the east, you can barely make out a small grove. To the west, you see what looks to be a small tomb. To the south, you see a large building, probably a mausoleum. You see a small archway over some stairs leading downwards.&#x000A;&#x000A;You can see a small box (empty) and Ezmerelda here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>
